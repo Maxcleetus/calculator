@@ -46,9 +46,11 @@ button:hover{
 }
 @media(max-width:700px){
     #calc{
-        margin-left: 0px;
+        position: absolute;
+        margin-left:0;
         margin-top: 50px;
         width: 355px;
+        left: 2px;
     }
     #main-bar{
         margin-left: 5px;
@@ -61,6 +63,7 @@ button:hover{
 
     }
     body{
+        position: relative;
         margin-left: 10px;
         margin-right: 10px;
         overflow: hidden;
