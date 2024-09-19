@@ -6,16 +6,22 @@
 body{
     background-color: rgb(25, 20, 64);
 }
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 #calc{
     width: 410px;
     height: 600px;
     background-color: rgb(0, 0, 0);
-    margin-left: 570px;
     margin-top: 76px;
     border-radius: 10px;
     border: 2px solid white;
 }
 #main-bar{
+    padding: 10px;
     margin-left: 19px;
     margin-top: 19px;
     height: 45px;
@@ -43,29 +49,4 @@ button:hover{
     border-color: white;
     background-color: rgba(25, 20, 64, 0.547);
     transition: 1s;
-}
-@media(max-width:700px){
-    #calc{
-        position: absolute;
-        margin-left:0;
-        margin-top: 50px;
-        width: 355px;
-        left: 2px;
-    }
-    #main-bar{
-        margin-left: 5px;
-        width: 338px;
-    }
-    button{
-        height: 65px;
-        width: 75px;
-        margin-left: 7px;
-
-    }
-    body{
-        position: relative;
-        margin-left: 10px;
-        margin-right: 10px;
-        overflow: hidden;
-    }
 }

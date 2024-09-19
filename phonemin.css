@@ -1,0 +1,15 @@
+#calc{
+    margin-top: 30px;
+    width: 275px;
+    height: 500px;
+}
+#main-bar{
+    margin-left: 5px;
+    width: 260px;
+    height: 30px;
+}
+button{
+    height: 50px;
+    width: 55px;
+    margin-left: 7px;
+}

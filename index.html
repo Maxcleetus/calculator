@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1440px)" href="laptop1440.css">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="laptop.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:425px)"   href="phone425.css">
+    <link rel="stylesheet" media="screen and (max-width:375px)" href="phone375.css">
+    <link rel="stylesheet" media=" screen and (max-width:320px)" href="phonemin.css">
 </head>
 <body>
     <div id="container">
         <div id="calc">
             <div id="total">
-                <input type="text" id="main-bar">
+                <input type="text" id="main-bar" >
             </div>
             <button onclick="buttonClear()">c</button>
             <div id="button">
@@ -37,18 +43,12 @@
                 <button onclick="buttonClick('+')">+</button>
                 <button onclick="buttonPress('=')">=</button>
             </div>
+            <div id="name">
 
-    <script src="calc.js"></script>
+            </div>
+
+     <script src="calc.js"></script>
         </div>
     </div>
-    
-
-
-
-
-
-
-
-    <script>src="calc.js"</script>
 </body>
 </html>
